@@ -12,13 +12,10 @@ public class Question1_2 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("Please enter two strings separated by space, i.e.) foo bar : ");
         String string1 = input.next();
         String string2 = input.next();
-
         System.out.println("Are the strings permutation of each other? " + isPermutation(string1, string2));
-
     }
 
     public static boolean isPermutation(String string1, String string2) {
@@ -52,23 +49,16 @@ public class Question1_2 {
     }
 
     public static Map<String, Integer> storeInHM(String toBeStored) {
-
         Map<String, Integer> map = new HashMap<>();
-
         for(int i = 0; i < toBeStored.length(); i++) {
-
             String key = String.valueOf(toBeStored.charAt(i));
-
             if(!map.containsKey(key)) map.put(key, 1);
-
             else {
                 int value = map.get(key);
                 value++;
                 map.put(key, value);
             }
         }
-
         return map;
     }
-
 }

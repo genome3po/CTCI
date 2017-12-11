@@ -1,12 +1,12 @@
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * Created by Jeprox on 12/9/17.
  * Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
  */
+
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.Map;
+import java.util.Set;
 
 public class Question1_2 {
 

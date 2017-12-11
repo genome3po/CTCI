@@ -1,10 +1,10 @@
-import java.util.Scanner;
-
 /**
  * Created by Jeprox on 12/9/17.
  * Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data
  * structures?
  */
+
+import java.util.Scanner;
 
 public class Question1_1 {
 

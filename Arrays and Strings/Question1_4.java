@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Jeprox on 12/10/17.
  * Palindrome Permutation: Given a string, write a function to check if it is a permutation of
  * a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A

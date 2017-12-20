@@ -18,7 +18,7 @@ public class Question1_6 {
     public static String compress(String s) {
 
         // Let's make the string more workable by creating a char array
-        char[] c = s.toCharArray();
+        char[] c = s.toCharArray(); // optional
         StringBuilder b = new StringBuilder();
 
         //===== DEBUG =====
